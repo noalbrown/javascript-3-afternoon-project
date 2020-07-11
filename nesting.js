@@ -161,7 +161,11 @@ var myCar = {
 */
 
 //Code Here
-
+function recordCleaner() {
+  for (let i = 0; i < accidents.length; i++) {
+    // let [accidents[atFaultForAccident] = true
+  }
+}
 
 
 
