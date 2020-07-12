@@ -163,9 +163,11 @@ var myCar = {
 //Code Here
 function recordCleaner() {
   for (let i = 0; i < accidents.length; i++) {
-    // let [accidents[atFaultForAccident] = true
+    let(accidents.atFaultForAccident[i]) = (accidents.atFaultForAccident[i] = true)
   }
 }
+
+// Not Finished
 
 
 
@@ -185,5 +187,14 @@ var numsArr = [[1, 2, 3, 4], [5, 6], [7, 8, 9, 10, 11]];
 */
 
 //Code Here
-
+function looper() {
+  for (let i = 0; i < numsArr.length; i++) {
+    // if (numsArr.filter(function (element, index, array) {
+    //   return element % 2 === 0;
+    // })) else if (numsArr.filter(function (element, index, array) {
+    //   return element % 2 !== 0;
+    // }))
+  }
+  return numsArr
+}
 
